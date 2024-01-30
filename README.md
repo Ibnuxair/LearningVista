@@ -1,9 +1,9 @@
-# AirBnB Clone - The Console
-The console is the first segment of the AirBnB project at Holberton School that will collectively cover fundamental concepts of higher level programming. The goal of AirBnB project is to eventually deploy our server a simple copy of the AirBnB Website(HBnB). A command interpreter is created in this segment to manage objects for the AirBnB(HBnB) website.
+# Learning Vista - The Console
+The console is the first segment of my portfolio project at ALX_SE that will collectively cover fundamental concepts of higher level programming. The goal of this project is to showcase my technical skills, problem-solving abilities, and real-world application of knowledge to prospective employers or clients, ultimately distinguishing me in the competitive field of software development. A command interpreter is created in this segment to manage objects for the Learning Vista website.
 
 #### Functionalities of this command interpreter:
-* Create a new object (ex: a new User or a new Place)
-* Retrieve an object from a file, a database etc...
+* Create a new object (ex: a new User or a new student)
+* Retrieve an object from a file, a database, etc...
 * Do operations on objects (count, compute stats, etc...)
 * Update attributes of an object
 * Destroy an object
@@ -22,10 +22,10 @@ The console is the first segment of the AirBnB project at Holberton School that 
 This project is interpreted/tested on Ubuntu 14.04 LTS using python3 (version 3.4.3)
 
 ## Installation
-* Clone this repository: `git clone "https://github.com/alexaorrico/AirBnB_clone.git"`
-* Access AirBnb directory: `cd AirBnB_clone`
-* Run hbnb(interactively): `./console` and enter command
-* Run hbnb(non-interactively): `echo "<command>" | ./console.py`
+* Clone this repository: `git clone "https://github.com/Ibnuxair/LearningVista.git"`
+* Access AirBnb directory: `cd LearningVista`
+* Run lv(interactively): `./console` and enter command
+* Run lv(non-interactively): `echo "<command>" | ./console.py`
 
 ## File Descriptions
 [console.py](console.py) - the console contains the entry point of the command interpreter. 
@@ -47,11 +47,14 @@ List of commands this console current supports:
 * `def to_dict(self)` - returns a dictionary containing all keys/values of the instance
 
 Classes inherited from Base Model:
-* [amenity.py](/models/amenity.py)
-* [city.py](/models/city.py)
-* [place.py](/models/place.py)
-* [review.py](/models/review.py)
-* [state.py](/models/state.py)
+* [resource.py](/models/resource.py)
+* [department.py](/models/department.py)
+* [teacher.py](/models/teacher.py)
+* [student.py](/models/student.py)
+* [admin.py](/models/admin.py)
+* [course.py](/models/course.py)  
+* [result.py](/models/result.py)
+* [assignment.py](/models/assignment.py)
 * [user.py](/models/user.py)
 
 #### `/models/engine` directory contains File Storage class that handles JASON serialization and deserialization :
@@ -151,14 +154,15 @@ EOF  all  create  destroy  help  quit  show  update
 ```
 
 ## Bugs
-No known bugs at this time. 
+No known bugs at this time.
 
 ## Authors
-Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
-Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)  
-Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)  
+Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)
+Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)
+Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)
 David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
+Ibrahim Uzairu - [Github](https://github.com/Ibnuxair)
 
 Second part of Airbnb: Joann Vuong
 ## License
-Public Domain. No copy write protection. 
+Public Domain. No copy write protection.
