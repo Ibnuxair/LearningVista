@@ -4,20 +4,26 @@ Contains the class DBStorage
 """
 
 import models
-from models.amenity import Amenity
+from models.administrator import Administrator
 from models.base_model import BaseModel, Base
-from models.city import City
-from models.place import Place
-from models.review import Review
-from models.state import State
+from models.assignment import Assignment
+from models.course import Course
+from models.department import Department
+from models.resource import Resource
+from models.result import Result
+from models.student import Student
+from models.teacher import Teacher
 from models.user import User
 from os import getenv
 import sqlalchemy
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 
-classes = {"Amenity": Amenity, "City": City,
-           "Place": Place, "Review": Review, "State": State, "User": User}
+classes = {"Administrator": Administrator, "Assignment": Assignment,
+           "Course": Course, "Department": Department,
+           "Resource": Resource, "Result": Result,
+           "Student": Student, "Teacher": Teacher,
+           "User": User}
 
 
 class DBStorage:
@@ -27,17 +33,27 @@ class DBStorage:
 
     def __init__(self):
         """Instantiate a DBStorage object"""
-        HBNB_MYSQL_USER = getenv('HBNB_MYSQL_USER')
-        HBNB_MYSQL_PWD = getenv('HBNB_MYSQL_PWD')
-        HBNB_MYSQL_HOST = getenv('HBNB_MYSQL_HOST')
-        HBNB_MYSQL_DB = getenv('HBNB_MYSQL_DB')
-        HBNB_ENV = getenv('HBNB_ENV')
+        LV_MYSQL_USER = getenv('LV_MYSQL_USER')
+        if LV_MYSQL_USER is None:
+            raise EnvironmentError("LV_MYSQL_USER is not set")
+        LV_MYSQL_PWD = getenv('LV_MYSQL_PWD')
+        if LV_MYSQL_PWD is None:
+            raise EnvironmentError("LV_MYSQL_PWD is not set")
+        LV_MYSQL_HOST = getenv('LV_MYSQL_HOST')
+        if LV_MYSQL_HOST is None:
+            raise EnvironmentError("LV_MYSQL_HOST is not set")
+        LV_MYSQL_DB = getenv('LV_MYSQL_DB')
+        if LV_MYSQL_DB is None:
+            raise EnvironmentError("LV_MYSQL_DB is not set")
+        LV_ENV = getenv('LV_ENV')
+        if LV_ENV is None:
+            raise EnvironmentError("LV_ENV is not set")
         self.__engine = create_engine('mysql+mysqldb://{}:{}@{}/{}'.
-                                      format(HBNB_MYSQL_USER,
-                                             HBNB_MYSQL_PWD,
-                                             HBNB_MYSQL_HOST,
-                                             HBNB_MYSQL_DB))
-        if HBNB_ENV == "test":
+                                      format(LV_MYSQL_USER,
+                                             LV_MYSQL_PWD,
+                                             LV_MYSQL_HOST,
+                                             LV_MYSQL_DB))
+        if LV_ENV == "test":
             Base.metadata.drop_all(self.__engine)
 
     def all(self, cls=None):
