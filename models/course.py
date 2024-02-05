@@ -21,7 +21,7 @@ class Course(BaseModel, Base):
 
     resources = relationship('Resource', backref='course',
                              cascade='all, delete, delete-orphan')
-    results = relationship('CourseResult', backref='course')
+    results = relationship('Result', backref='course')
 
     def __init__(self, *args, **kwargs):
         """initializes Course"""

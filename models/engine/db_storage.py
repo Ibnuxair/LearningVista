@@ -34,20 +34,10 @@ class DBStorage:
     def __init__(self):
         """Instantiate a DBStorage object"""
         LV_MYSQL_USER = getenv('LV_MYSQL_USER')
-        if LV_MYSQL_USER is None:
-            raise EnvironmentError("LV_MYSQL_USER is not set")
         LV_MYSQL_PWD = getenv('LV_MYSQL_PWD')
-        if LV_MYSQL_PWD is None:
-            raise EnvironmentError("LV_MYSQL_PWD is not set")
         LV_MYSQL_HOST = getenv('LV_MYSQL_HOST')
-        if LV_MYSQL_HOST is None:
-            raise EnvironmentError("LV_MYSQL_HOST is not set")
         LV_MYSQL_DB = getenv('LV_MYSQL_DB')
-        if LV_MYSQL_DB is None:
-            raise EnvironmentError("LV_MYSQL_DB is not set")
         LV_ENV = getenv('LV_ENV')
-        if LV_ENV is None:
-            raise EnvironmentError("LV_ENV is not set")
         self.__engine = create_engine('mysql+mysqldb://{}:{}@{}/{}'.
                                       format(LV_MYSQL_USER,
                                              LV_MYSQL_PWD,

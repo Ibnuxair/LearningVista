@@ -27,6 +27,7 @@ class Teacher(BaseModel, Base):
     first_name = Column(String(128), nullable=True)
     last_name = Column(String(128), nullable=True)
     subject_specialization = Column(String(128), nullable=True)
+    department = relationship('Department', back_populates='teachers')
     courses_taking = relationship('Course', secondary=teacher_course,
                                   viewonly=False)
     user_id = Column(String(60),

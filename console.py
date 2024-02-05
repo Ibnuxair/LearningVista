@@ -4,22 +4,28 @@
 import cmd
 from datetime import datetime
 import models
-from models.amenity import Amenity
-from models.base_model import BaseModel
-from models.city import City
-from models.place import Place
-from models.review import Review
-from models.state import State
+from models.administrator import Administrator
+from models.base_model import BaseModel, Base
+from models.assignment import Assignment
+from models.course import Course
+from models.department import Department
+from models.resource import Resource
+from models.result import Result
+from models.student import Student
+from models.teacher import Teacher
 from models.user import User
 import shlex  # for splitting the line along spaces except in double quotes
 
-classes = {"Amenity": Amenity, "BaseModel": BaseModel, "City": City,
-           "Place": Place, "Review": Review, "State": State, "User": User}
+classes = {"Administrator": Administrator, "Assignment": Assignment,
+           "Course": Course, "Department": Department,
+           "Resource": Resource, "Result": Result,
+           "Student": Student, "Teacher": Teacher,
+           "User": User}
 
 
-class HBNBCommand(cmd.Cmd):
+class LVCommand(cmd.Cmd):
     """ HBNH console """
-    prompt = '(hbnb) '
+    prompt = '(lv) '
 
     def do_EOF(self, arg):
         """Exits console"""
@@ -160,5 +166,6 @@ class HBNBCommand(cmd.Cmd):
         else:
             print("** class doesn't exist **")
 
+
 if __name__ == '__main__':
-    HBNBCommand().cmdloop()
+    LVCommand().cmdloop()

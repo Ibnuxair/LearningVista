@@ -38,9 +38,11 @@ class Student(BaseModel, Base):
     __tablename__ = 'students'
     first_name = Column(String(128), nullable=True)
     last_name = Column(String(128), nullable=True)
+    midle_name = Column(String(128))
     registration_number = Column(String(128), nullable=True, unique=True)
-    date_of_birth = Column(DateTime, nullable=True)
-    enrollment_date = Column(DateTime, nullable=True)
+    date_of_birth = Column(DateTime)
+    enrollment_date = Column(DateTime)
+    department = relationship('Department', back_populates='students')
     courses_enrolled = relationship('Course', secondary=student_course,
                                     viewonly=False)
     assignments = relationship('Assignment', secondary=student_assignment,
