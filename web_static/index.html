@@ -1,62 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <title>Learning Vista</title>
-    <link rel="stylesheet" type="text/css" href="styles/103-common.css" />
-    <link rel="stylesheet" type="text/css" href="styles/103-header.css" />
-    <link rel="stylesheet" type="text/css" href="styles/103-footer.css" />
-    <link rel="stylesheet" type="text/css" href="styles/103-filters.css" />
-    <link rel="stylesheet" type="text/css" href="styles/103-places.css" />
-    <link rel='shortcut icon' href="../images/icon.png" />
+    <link rel="stylesheet" type="text/css" href="styles/103-common.css">
+    <link rel="stylesheet" type="text/css" href="styles/103-header.css">
+    <link rel="stylesheet" type="text/css" href="styles/103-footer.css">
+    <link rel="stylesheet" type="text/css" href="styles/103-filters.css">
+    <link rel="stylesheet" type="text/css" href="styles/103-places.css">
+    <link rel="shortcut icon" href="../images/icon.png">
   </head>
-
   <body>
-    <header title="Logo">
-      <nav>
-	<a href="index.html">Home</a>
-	<div class="popover">
-	  <span>Institutes</span>
-	  <div class="dropdown-content">
-	    <a href="nursery.html">Nursery and Primary School</a>
-	    <a href="secondary.html">Secondary School</a>
-	    <a href="higher.html">Higher Education</a>
+    <!-- Header Container -->
+    <header class="headerContainer" data-swiftype-index="false">
+      <!-- Header Content -->
+      <div class="headerContent clearfix">
+	<div id="headerContent-container">
+	  <div class="logo" itemscope itemtype="https://schema.org/Organization">
+	    <a href="index.html" id="logolink"><img src="../images/logo.png" width="206" height="86" alt="logo" id="logo" itemprop="logo"></a>
 	  </div>
+	  <!-- Primary Nav -->
+	  <nav class="primaryNav showAtDesktop" id="navigation" data-menutype="Mega" aria-label="Site menu">
+	    <ul class="megaMenu clickOut clearfix">
+	      <li class="menuItem homeItem">
+		<a class="home" href="index.html">Home</a>
+	      </li>
+	      <li class="menuItem">
+		<a class="megaLink" id="megaLink-institutes" href="institutes.html">Institutes</a>
+		<div class="megaContent" id="mega-content-institutes">
+		  <div class="row">
+		    <div class="megaSubPanel" id="panel-institutes-nursery">
+		      <p><a href="institutes.html">Nursery</a></p>
+		      <ul>
+			<li><a href="nursery.html">Nursery and Primary School</a></li>
+			<li><a href="secondary.html">Secondary School</a></li>
+			<li><a href="higher.html">Higher Education</a></li>
+		      </ul>
+		    </div>
+		  </div>
+		</div>
+	      </li>
+	      <li class="menuItem">
+		<a class="megaLink" id="megaLink-news" href="news.html">News</a>
+		<div class="megaContent" id="mega-content-news">
+		  <div class="row">
+		    <div class="megaSubPanel" id="panel-news-headlines">
+		      <p><a href="headlines.html">Headlines</a></p>
+		      <p><a href="bulletin.html">Special Bulletin</a></p>
+		    </div>
+		  </div>
+		</div>
+	      </li>
+	      <li class="menuItem">
+		<a class="megaLink" id="megaLink-resources" href="resources.html">Resources</a>
+		<div class="megaContent" id="mega-content-resources">
+		  <div class="row">
+		    <div class="megaSubPanel" id="panel-resources-lv-mail">
+		      <p><a href="lv_mail.html">LV Mail</a></p>
+		      <p><a href="ict_center.html">ICT Center</a></p>
+		      <p><a href="staff_portal.html">Staff Portal</a></p>
+		      <p><a href="student_portal.html">Student Portal</a></p>
+		    </div>
+		  </div>
+		</div>
+	      </li>
+	      <li class="menuItem">
+		<a class="megaLink" id="megaLink-connect" href="connect.html">Connect</a>
+		<div class="megaContent" id="mega-content-connect">
+		  <div class="row">
+		    <div class="megaSubPanel" id="panel-connect-jobs">
+		      <p><a href="jobs.html">Jobs</a></p>
+		      <p><a href="alumni.html">Alumni</a></p>
+		      <p><a href="staff_careers.html">Staff and Careers Advisers</a></p>
+		      <p><a href="social_media.html">Social Media</a></p>
+		      <p><a href="contact_us.html">Contact Us</a></p>
+		    </div>
+		  </div>
+		</div>
+	      </li>
+	    </ul>
+	  </nav>
 	</div>
-	<div class="popover">
-	  <span>News</span>
-	  <div class="dropdown-content">
-	    <a href="headlines.html">Headlines</a>
-	    <a href="bulletin.html">Special Bulletin</a>
-	  </div>
-	</div>
-	<div class="popover">
-	  <span>Resources</span>
-	  <div class="dropdown-content">
-	    <a href="lv_mail.html">LV Mail</a>
-	    <a href="ict_center.html">ICT Center</a>
-	    <a href="staff_portal.html">Staff Portal</a>
-	    <a href="student_portal.html">Student Portal</a>
-	  </div>
-	</div>
-	<div class="popover">
-	  <span>Connect</span>
-	  <div class="dropdown-content">
-	    <a href="jobs.html">Jobs</a>
-	    <a href="alumni.html">Alumni</a>
-	    <a href="staff_careers.html">Staff and Careers Advisers</a>
-	    <a href="social_media.html">Social Media</a>
-	    <a href="contact_us.html">Contact Us</a>
-	  </div>
-	</div>
-	<button title="search button">Search</button>
-      </nav>
+      </div>
     </header>
     <footer>
       <p>&copy; 2024 Learning Vista School. All rights reserved.</p>
     </footer>
   </body>
-
 </html>
