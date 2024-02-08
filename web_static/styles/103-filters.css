@@ -4,6 +4,7 @@
     border-radius: 4px;
     display: flex;
     align-items: center;
+    justify-content: center; /* Center horizontally */
     position: relative;
 }
 
@@ -25,6 +26,8 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex; /* Make the megaMenu a flex container */
+    justify-content: center; /* Center the content horizontally */
 }
 
 .megaMenu .menuItem {
@@ -49,12 +52,4 @@
 
 .megaContent p {
     margin: 10px 0;
-}
-
-.megaMenu {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
 }
