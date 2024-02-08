@@ -1,24 +1,10 @@
 .headerContainer {
     background-color: white;
-    height: 70px;
     border: 1px solid #575757;
     border-radius: 4px;
     display: flex;
     align-items: center;
     position: relative;
-}
-
-.headerContainer button {
-    font-size: 18px;
-    background-color: #AA0004;
-    color: #FFFFFF;
-    height: 48px;
-    width: 20%;
-    border: none;
-    border-radius: 4px;
-    position: absolute;
-    right: 30px;
-    box-sizing: border-box;
 }
 
 .logo {
@@ -29,66 +15,38 @@
     flex-shrink: 0;
 }
 
-.headerContainer button:hover {
-    background-color: #223FB0;
-}
-
-.headerContainer .priNav {
-    height: 100%;
-    width: 25%;
-    position: relative;
+.priNav {
+    flex: 1; /* Take remaining space */
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    box-sizing: border-box;
+    justify-content: flex-end; /* Align navigation to the right */
 }
 
-.headerContainer .popover {
+.megaMenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.megaMenu .menuItem {
+    margin-left: 20px; /* Adjust spacing between menu items */
+    position: relative; /* Add relative positioning for absolute child */
+}
+
+.megaContent {
     display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
     background-color: #FAFAFA;
     border: 1px solid #575757;
     border-radius: 4px;
-    position: absolute;
-    box-sizing: border-box;
-    width: 100%;
-    top: 100%;
-    margin-top: 0;
+    width: 200px; /* Adjust width as needed */
 }
 
 .menuItem:hover .megaContent {
     display: block;
 }
 
-
-.headerContainer .popover p {
+.megaContent p {
     margin: 10px 0;
-}
-
-.headerContainer .megaContent {
-    display: none;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.row > * {
-    flex: 0 0 33.33%;
-    padding: 0 10px;
-}
-
-.megaMenu {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-}
-
-.megaMenu .menuItem {
-    margin-right: 20px;
-}
-
-.megaMenu .menuItem:last-child {
-    margin-right: 0;
 }
