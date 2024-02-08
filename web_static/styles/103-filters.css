@@ -3,7 +3,7 @@
     border: 1px solid #575757;
     border-radius: 4px;
     display: flex;
-    align-items: center; /* Align items vertically */
+    justify-content: center;
     position: relative;
 }
 
@@ -16,7 +16,6 @@
     flex: 1; /* Take remaining space */
     display: flex;
     justify-content: center;
-    align-items: center; /* Align items vertically */
 }
 
 .megaMenu {
