@@ -8,16 +8,14 @@
 }
 
 .logo {
-    height: 70px;
-    width: auto; /* Adjust this as needed */
+    width="25";
+    height="20";
     border-bottom: 1px solid #575757;
     background: black url(../images/logo.png) no-repeat 20px center;
     flex-shrink: 0;
 }
 
 .priNav {
-    height: 70px;
-    width: auto;
     flex: 1; /* Take remaining space */
     display: flex;
     justify-content: center;
