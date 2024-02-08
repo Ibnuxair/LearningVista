@@ -97,3 +97,18 @@
     flex: 0 0 33.33%;
     padding: 0 10px;
 }
+
+.priNav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.megaMenu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuItem {
+    margin: 0 10px;
+}
