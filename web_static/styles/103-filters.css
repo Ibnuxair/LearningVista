@@ -47,7 +47,7 @@
     margin-top: 0;
 }
 
-.headerContainer .menuItem:hover > .megaContent {
+.headerContainer .menuItem:hover .megaContent {
     display: block;
 }
 
