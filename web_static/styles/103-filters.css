@@ -21,6 +21,14 @@
     box-sizing: border-box;
 }
 
+.logo {
+    height: 70px;
+    width: auto; /* Adjust this as needed */
+    border-bottom: 1px solid #575757;
+    background: black url(../images/logo.png) no-repeat 20px center;
+    flex-shrink: 0;
+}
+
 .headerContainer button:hover {
     background-color: #223FB0;
 }
