@@ -50,3 +50,10 @@
 .megaContent p {
     margin: 10px 0;
 }
+
+.megaMenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
