@@ -8,8 +8,8 @@
 }
 
 .logo {
-    width="25";
-    height="20";
+    height: 70px;
+    height="50";
     border-bottom: 1px solid #575757;
     background: black url(../images/logo.png) no-repeat 20px center;
     flex-shrink: 0;
