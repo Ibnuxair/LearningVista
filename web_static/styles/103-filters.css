@@ -10,8 +10,6 @@
 .logo {
     height: 70px; /* Adjust the height as needed */
     border-bottom: 1px solid #575757;
-    background: black url(../images/logo.png) no-repeat 20px center;
-    flex-shrink: 0;
 }
 
 .priNav {
