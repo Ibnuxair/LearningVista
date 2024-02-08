@@ -98,17 +98,17 @@
     padding: 0 10px;
 }
 
-.priNav {
+.megaMenu {
     list-style-type: none;
     padding: 0;
     margin: 0;
-}
-
-.megaMenu {
     display: flex;
-    justify-content: space-between;
 }
 
 .menuItem {
-    margin: 5 10px;
+    margin-right: 20px;
+}
+
+.menuItem:last-child {
+    margin-right: 0;
 }
