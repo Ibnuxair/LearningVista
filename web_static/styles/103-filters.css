@@ -3,13 +3,12 @@
     border: 1px solid #575757;
     border-radius: 4px;
     display: flex;
-    align-items: center;
+    align-items: center; /* Align items vertically */
     position: relative;
 }
 
 .logo {
-    height: 70px;
-    height="50";
+    height: 70px; /* Adjust the height as needed */
     border-bottom: 1px solid #575757;
     background: black url(../images/logo.png) no-repeat 20px center;
     flex-shrink: 0;
@@ -19,6 +18,7 @@
     flex: 1; /* Take remaining space */
     display: flex;
     justify-content: center;
+    align-items: center; /* Align items vertically */
 }
 
 .megaMenu {
