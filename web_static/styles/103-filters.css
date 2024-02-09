@@ -10,6 +10,7 @@
 .logo{
     background-color: black;
     width: 100px;
+    display: inline-flex;
 }
 
 .priNav {
