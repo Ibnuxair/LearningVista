@@ -41,7 +41,7 @@
 }
 
 .menuItem:hover .megaContent {
-    display: block;
+    display: inline;
 }
 
 .megaContent p {
