@@ -7,10 +7,6 @@
     justify-content: space-between; /* Add this to push the logo and nav menus apart */
 }
 
-.logo {
-    background: white url(../images/logo.png) no-repeat 20px center;
-}
-
 .priNav {
     flex: 3; /* Adjust width of navigation */
     text-align: center;
