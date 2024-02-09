@@ -4,14 +4,14 @@
     padding: 10px 20px;
     display: flex;
     align-items: center;
+    display: inline-block;
 }
 
 .logo {
     flex: 1;
-    height: 70px;
-    height="50";
+    max-height: 70px; /* Adjust maximum height as needed */
     border-bottom: 1px solid #575757;
-    background: black url(../images/logo.png) no-repeat 20px center;
+    background: white url(../images/logo.png) no-repeat 20px center;
     flex-shrink: 0;
 }
 
