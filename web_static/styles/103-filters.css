@@ -4,14 +4,11 @@
     padding: 10px 20px;
     display: flex;
     align-items: center;
+    justify-content: space-between; /* Add this to push the logo and nav menus apart */
 }
 
 .logo {
-    flex: 1;
-    max-height: 70px; /* Adjust maximum height as needed */
-    border-bottom: 1px solid #575757;
     background: white url(../images/logo.png) no-repeat 20px center;
-    flex-shrink: 0;
 }
 
 .priNav {
