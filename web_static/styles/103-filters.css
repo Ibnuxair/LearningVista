@@ -71,9 +71,9 @@
     height: 48px;
     width: 20%;
     border: none;
-    position: relative;
     border-radius: 4px;
-    margin-right: 40px;
+    position: absolute;
+    right: 30px;
     box-sizing: border-box;
 }
 .headerContainer button:hover {
