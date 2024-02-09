@@ -31,21 +31,22 @@
 
 .megaContent {
     display: none;
-   /* position: absolute; */
+    position: absolute;
     top: 100%;
     left: 0;
     background-color: #FAFAFA;
     border: 1px solid #575757;
     border-radius: 4px;
-    width: 100%; /* Adjust width as needed */
+    width: 200px; /* Adjust width as needed */
 }
 
 .menuItem:hover .megaContent {
-    display: inline;
+    display: block;
 }
 
 .megaContent p {
     margin: 10px 0;
+    display: inline-block;
 }
 
 .megaMenu {
@@ -55,6 +56,3 @@
     display: flex;
 }
 
-.headerContainer .megaContent .row p {
-    display: inline-flex;
-}
