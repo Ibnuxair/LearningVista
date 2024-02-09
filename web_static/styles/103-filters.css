@@ -1,4 +1,5 @@
 .headerContainer {
+    position: relative;
     background-color: #ffffff;
     border-bottom: 1px solid #eaeaea;
     padding: 10px 20px;
@@ -73,7 +74,7 @@
     border: none;
     border-radius: 4px;
     position: absolute;
-    right: 30px;
+    right: 40px;
     box-sizing: border-box;
 }
 .headerContainer button:hover {
