@@ -55,6 +55,6 @@
     display: flex;
 }
 
-.row p{
-    display: inline-flex; 
+.headerContainer .megaContent .row p {
+    display: inline-flex;
 }
