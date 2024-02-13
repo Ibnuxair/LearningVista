@@ -17,3 +17,36 @@ body {
     flex: 1 0 auto;
 }
 
+.tagline p span {
+    color: green;
+}
+
+.cover-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.deployed-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.deployed-button:hover {
+    background-color: #0056b3;
+}
+
+.feature {
+    margin-bottom: 30px;
+}
+
+.feature-image {
+    width: 100%;
+    height: auto;
+}
+
