@@ -20,14 +20,15 @@ html, body {
 /* intro-section */
 .intro-section {
     display: block;
+    text-align: center;
 }
 
 .tagline p span {
     color: green;
 }
 
-/* section */
-.section {
+/* feature-section */
+.feature-section {
     text-align: center;
 }
 
