@@ -27,6 +27,17 @@ html, body {
     color: green;
 }
 
+/* Feature Section */
+.feature-section {
+    text-align: center;
+}
+
+/* Feature image */
+.feature-image {
+    width: 100%;
+    height: auto;
+}
+
 /* Cover Image */
 .cover-image {
     width: 100%;
@@ -36,6 +47,8 @@ html, body {
 
 /* Deployed Button */
 .deployed-button {
+    text-align: left;
+    margin-bottom: 30px;
     padding: 10px 20px;
     background-color: #007bff;
     color: #fff;
