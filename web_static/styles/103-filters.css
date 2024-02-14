@@ -16,7 +16,7 @@
 
 .priNav {
     flex: 3; /* Adjust width of navigation */
-    align-items: center;
+    text-align: center; 
     list-style-type: none;
     margin: 0;
     padding: 0;

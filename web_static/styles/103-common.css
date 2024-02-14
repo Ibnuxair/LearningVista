@@ -17,8 +17,8 @@ html, body {
     width: 100%;
 }
 
-/* Tagline */
-.tagline {
+/* intro-section */
+.intro-section {
     display: block;
     text-align: center;
 }
