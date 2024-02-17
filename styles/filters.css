@@ -5,6 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between; /* Add this to push the logo and nav menus apart */
+    vertical-align: middle;
 }
 
 .logo{
