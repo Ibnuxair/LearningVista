@@ -28,31 +28,28 @@ headerContainer .headerContent{
 }
 
 .priNav {
-    flex: 3; /* Adjust width of navigation */
-    text-align: center; 
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    margin-right: 20px;
-    color: #333333;
-    display: inline-flex;
+    float: right;
+    height: 100%;
+}
+
+.priNav li{
+    display: table;
+    height: 100%;
+    float: left;
+    margin-right: 30px;
+}
+
+.priNav li:last-of-type{
+    margin-right: 0;
+}
+
+.priNav span {
+    display: table-cell;
     vertical-align: middle;
 }
 
 .priNav a {
     color: #333333;
-    text-decoration: none;
-}
-
-.megaMenu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.megaMenu .menuItem {
-    margin-left: 20px; /* Adjust spacing between menu items */
-    position: relative; /* Add relative positioning for absolute child */
 }
 
 .megaContent {
@@ -75,14 +72,7 @@ headerContainer .headerContent{
     display: inline-block;
 }
 
-.megaMenu {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-}
-
-.headerContainer button {
+.headerContainer .priNav button {
     font-size: 18px;
     background-color: #AA0004;
     color: #FFFFFF;
