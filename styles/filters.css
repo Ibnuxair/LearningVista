@@ -64,7 +64,7 @@ header .logo img{
 }
 
 .megaContent {
-    display: none;
+    display: block;
     position: absolute;
     top: 100%;
     left: 0;
@@ -88,13 +88,14 @@ header .logo img{
     padding: 10px 20px;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-left: 110px;
+    margin-left: 130px;
+    margin-right: 20px; 
     border: none;
     cursor: pointer;
 }
 
 .search-button img {
-    height: 20px;
+    height: 10px;
     margin-top: 5px; /* Optical alignment of the logo */
 
 }
@@ -104,6 +105,7 @@ header .logo img{
     background-color: white;
     padding: 10px 20px;
     color: purple;
+    margin-left: 20px; 
     border-radius: 4px;
     box-sizing: border-box;
     cursor: pointer;
