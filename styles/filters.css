@@ -107,6 +107,11 @@ header .logo img{
     border-radius: 4px;
     box-sizing: border-box;
     cursor: pointer;
+    border: 1px solid #333;
+}
+
+.talk-to-sales-button:hover {
+    border-color: #000;
 }
 
 .sign-in-button {
