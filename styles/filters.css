@@ -27,6 +27,8 @@ header .logo{
 }
 
 header .logo div{
+    background-color: black;
+    margin-top: 5px;
     height: 100%;
     display: table-cell;
     vertical-align: middle;
