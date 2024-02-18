@@ -13,7 +13,7 @@
     font-family: 'Poppins';
 }
 
-headerContainer .headerContent{
+.headerContainer .headerContent{
     width: 1300px; /* This is the inner width of the content inside of your header (80%, etc) */
     height: 100%;
     display: block;
@@ -80,6 +80,7 @@ headerContainer .headerContent{
     border-radius: 4px;
     box-sizing: border-box;
 }
+
 .headerContainer button:hover {
     background-color: #223FB0;
 }
