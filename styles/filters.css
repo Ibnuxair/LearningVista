@@ -88,7 +88,7 @@ header .logo img{
     padding: 10px 20px;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-left: 80px;
+    margin-left: 110px;
     border: none;
 }
 
@@ -98,7 +98,7 @@ header .logo img{
 
 }
 
-.talk-to-sales {
+.talk-to-sales-button {
     font-size: 18px;
     background-color: white;
     padding: 10px 20px;
