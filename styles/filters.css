@@ -83,7 +83,7 @@ header .logo img{
     display: inline-block;
 }
 
-.headerContainer .priNav .sign-in-button {
+.sign-in-button {
     font-size: 18px;
     background-color: #AA0004;
     color: #FFFFFF;
@@ -92,6 +92,6 @@ header .logo img{
     box-sizing: border-box;
 }
 
-.headerContainer button:hover {
+.headerContainer .sign-in-button:hover {
     background-color: #223FB0;
 }
