@@ -76,12 +76,8 @@ headerContainer .headerContent{
     font-size: 18px;
     background-color: #AA0004;
     color: #FFFFFF;
-    height: 40px;
-    width: 8%;
-    border: none;
+    padding: 10px 20px;
     border-radius: 4px;
-    position: absolute;
-    right: 50px;
     box-sizing: border-box;
 }
 .headerContainer button:hover {
