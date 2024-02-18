@@ -84,11 +84,12 @@ header .logo img{
 }
 
 .search-button {
-    font-size: 18px;
     background-color: white;
     padding: 10px 20px;
     border-radius: 4px;
     box-sizing: border-box;
+    margin-left: 80px;
+    border: none;
 }
 
 .search-button img {
@@ -100,6 +101,7 @@ header .logo img{
 .talk-to-sales {
     font-size: 18px;
     background-color: white;
+    padding: 10px 20px;
     color: purple;
     border-radius: 4px;
     box-sizing: border-box;
