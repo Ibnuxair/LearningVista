@@ -112,6 +112,7 @@ header .logo img{
 
 .talk-to-sales-button:hover {
     background-color: #223FB0;
+    color: white;
 }
 
 .sign-in-button {
