@@ -91,17 +91,18 @@ header .logo img{
     box-sizing: border-box;
 }
 
-.sign-in-button {
+.search-button img {
+    height: 20px;
+    margin-top: 5px; /* Optical alignment of the logo */
+
+}
+
+.talk-to-sales {
     font-size: 18px;
     background-color: white;
     color: purple;
     border-radius: 4px;
     box-sizing: border-box;
-}
-
-.sign-in-button img {
-    height: 50px;   
-    margin-top: 5px; /* Optical alignment of the logo */
 }
 
 .sign-in-button {
