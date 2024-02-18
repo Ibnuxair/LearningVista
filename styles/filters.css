@@ -83,7 +83,7 @@ header .logo img{
     display: inline-block;
 }
 
-.headerContainer .priNav button {
+.headerContainer .priNav sign-in {
     font-size: 18px;
     background-color: #AA0004;
     color: #FFFFFF;
