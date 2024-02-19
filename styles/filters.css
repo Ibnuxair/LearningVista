@@ -75,6 +75,7 @@ header .logo img{
 }
 
 .megaContent {
+    display: none;
     position: absolute;
     top: 100%;
     left: 0;
@@ -84,7 +85,7 @@ header .logo img{
     width: 200px; /* Adjust width as needed */
 }
 
-.menuItem .megaContent {
+.menuItem:hover .megaContent {
     display: block;
 }
 
