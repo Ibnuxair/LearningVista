@@ -76,7 +76,7 @@ header .logo img{
 
 .megaContent {
     display: none;
-    position: absolute;
+    position: relative;
     top: 100%;
     left: 0;
     background-color: #FAFAFA;
@@ -86,7 +86,7 @@ header .logo img{
 }
 
 .menuItem:hover .megaContent {
-    display: inline;
+    display: block;
 }
 
 .megaContent p {
