@@ -41,7 +41,11 @@ header .logo img{
 .priNav {
     float: right;
     height: 100%;
-    vertical-align: middle;
+}
+
+.megaMenu {
+    margin: 0;
+    padding: 0;
 }
 
 .priNav li{
