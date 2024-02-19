@@ -23,6 +23,10 @@ html, body {
     text-align: center;
 }
 
+.tagline {
+    display: block;
+}
+
 .tagline p span {
     color: green;
 }
