@@ -41,15 +41,6 @@ header .logo img{
 .priNav {
     float: right;
     height: 100%;
-    flex: 3; /* Adjust width of navigation */
-    text-align: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    margin-right: 20px;
-    color: #333333;
-    display: inline-flex;
-    vertical-align: middle;
 }
 
 .priNav li{
