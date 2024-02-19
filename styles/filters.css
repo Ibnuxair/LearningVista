@@ -1,12 +1,11 @@
-/* Reset default styles */
-* {
+/* Default styles for the browser */
+*{
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
 }
 
-/* Header styles */
 header {
     width: 100vw;
     height: 100px;
@@ -14,60 +13,127 @@ header {
     font-family: 'Poppins';
 }
 
-/* Logo styles */
-header .logo {
+header .headerContent{
+    width: 90%; /* This is the inner width of the content inside of your header (80%, etc) */
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+header .logo{
     display: table;
     height: 100%;
     float: left;
 }
 
-/* Navigation styles */
+header .logo div{
+    margin-top: 7px;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header .logo img{
+    height: 50px;
+    margin-top: 5px; /* Optical alignment of the logo */
+}
+
 .priNav {
     float: right;
     height: 100%;
 }
 
-/* Menu item styles */
-.priNav li {
+
+.megaMenu {
+    margin: 0;
+    padding: 0;
+}
+
+.megaMenu .menuItem {
+    margin-left: 20px; /* Adjust spacing between menu items */
+    position: relative; /* Add relative positioning for absolute child */
+}
+
+.priNav li{
     display: table;
     height: 100%;
     float: left;
     margin-right: 30px;
 }
 
-/* Button styles */
-.search-button, .talk-to-sales-button, .sign-in-button {
+.priNav li:last-of-type{
+    margin-right: 0;
+}
+
+.priNav span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.priNav a {
+    color: #333333;
+}
+
+.megaContent {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #FAFAFA;
+    border: 1px solid #575757;
+    border-radius: 4px;
+    width: 200px; /* Adjust width as needed */
+}
+
+.menuItem:hover .megaContent {
+    display: block;
+}
+
+.megaContent p {
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.search-button {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-button img {
+    height: 17px;
+    margin-top: 5px; /* Optical alignment of the logo */
+
+}
+
+.talk-to-sales-button {
     font-size: 14px;
+    background-color: white;
+    padding: 10px 20px;
+    color: purple;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: 1px solid #333;
+}
+
+.talk-to-sales-button:hover {
+    background-color: #223FB0;
+    color: white;
+}
+
+.sign-in-button {
+    font-size: 14px;
+    background-color: #AA0004;
+    color: #FFFFFF;
     padding: 10px 20px;
     border-radius: 4px;
     box-sizing: border-box;
     cursor: pointer;
-}
-
-/* Search button specific styles */
-.search-button {
-    background-color: white;
-    margin-left: 160px;
-    border: none;
-}
-
-/* Talk to sales button specific styles */
-.talk-to-sales-button {
-    background-color: white;
-    color: purple;
-    border: 1px solid #333;
-}
-
-/* Sign in button specific styles */
-.sign-in-button {
-    background-color: #AA0004;
-    color: #FFFFFF;
-}
-
-/* Hover styles */
-.talk-to-sales-button:hover {
-    background-color: #223FB0;
-    color: white;
 }
 
 .headerContainer .sign-in-button:hover {
