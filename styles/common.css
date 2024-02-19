@@ -23,12 +23,9 @@ html, body {
     text-align: center;
 }
 
-.tagline div {
-    display: block;
-}
-
 .tagline p span {
     color: green;
+    margin-bottom: 30px;
 }
 
 /* feature-section */
