@@ -41,6 +41,7 @@ header .logo img{
 .priNav {
     float: right;
     height: 100%;
+    vertical-align: middle;
 }
 
 .priNav li{
@@ -49,7 +50,6 @@ header .logo img{
     height: 100%;
     float: left;
     margin-right: 30px;
-    vertical-align: middle;
 }
 
 .priNav li:last-of-type{
