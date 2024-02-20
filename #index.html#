@@ -24,11 +24,11 @@
       <div class="headerContent">
 	<div class="logo">
 	  <div>
-	    <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+	    <a href="index.html"><img src="images/logo.png" alt="logo"/></a>
 	  </div>
 	</div>
 	<!-- Primary Nav -->
-	<nav class="priNav">
+	<nav class="priNav" role="navigation">
 	  <ul class="megaMenu">
 	    <li class="menuItem homeItem">
 	      <span><a class="intro" href="#intro-section">Intro</a></span>
@@ -74,8 +74,7 @@
 		</div>
 	      </div>
 	    </li>
-	    <li>
-	      <span><button title="sign-in button" class="search-button"><img src="images/search_icon.png" alt="logo"></button></span>
+	    <li>                                                                                                                                                                          <span><button title="sign-in button"class="search-button"><img src="images/search_icon.png" alt="logo"/></button></span>
 	    </li>
 	    <li>                                                                                                                                                                          <span><button title="sign-in button" class="talk-to-sales-button">TALK TO SALES</button></span>
 	    </li>
@@ -93,13 +92,12 @@
 	  <h1>Learning Vista</h1>
 	  <p>Exploring Horizons, <span>Embracing Lifelong Learning</span></p>
 	</div>
-	<img src="images/code_pic.png" class="cover-image" alt="Cover Image">
+	<img src="images/code_pic.png" width="1400"  height="450" class="cover-image" alt="Cover Image">
 	<button onclick="window.location.href='deployed_app_url'" class="deployed-button">Deployed Project</button>
       </section>
 
       <!-- Feature Section -->
       <section class="feature-section section" id="feature-section">
-	 <h2>Feature</h2>
 	<div class="feature">
 	  <img src="images/code_pic.png" class="feature-image" alt="Feature 1 Image">
 	  <h2>Feature 1: Name of Feature 1</h2>
