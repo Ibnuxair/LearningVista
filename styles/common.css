@@ -8,7 +8,6 @@ html, body {
     font-family: "Circular", "Helvetica Neue", Helvetica, Arial, sans-serif; 
     display: flex;
     flex-direction: column;
-    background-color: #f5f5f5;
 }
 
 /* Container */
@@ -68,13 +67,13 @@ html, body {
 
 .feature-section h1 {
     text-align: left;
-    margin-left: 48px;
+    margin-left: 45px;
     font-size: 2.5em;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .feature-section .feature-image {
-    width: 95%;
+    width: 93%;
     height: 400px;
     margin-bottom: 20px;
     margin-top: 30px;
