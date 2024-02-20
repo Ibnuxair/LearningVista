@@ -41,8 +41,8 @@ html, body {
 
 /* Feature image */
 .feature-section .feature-image {
-    width: 80%;
-    height: auto;
+    width: 90%;
+    height: 70px;
     margin-bottom: 20px;
     margin-top: 30px;
     border-radius: 10px;
@@ -50,7 +50,7 @@ html, body {
 
 /* Cover Image */
 .intro-section .cover-image {
-    width: 80%;
+    width: 90%;
     height: 63%;
     margin-bottom: 20px;
     margin-top: 30px;
