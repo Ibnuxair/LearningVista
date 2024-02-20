@@ -34,16 +34,15 @@ html, body {
 
 /* feature-section */
 .feature-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    display: block;
+    text-align: center;
+    height: 1000px;
 }
 
 /* Feature image */
 .feature-image {
     width: 100%;
-    height: 10%;
+    height: 5%;
     margin-bottom: 20px;
     margin-top: 30px;
     border-radius: 10px;
