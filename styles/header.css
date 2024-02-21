@@ -14,7 +14,7 @@ header {
 }
 
 header .headerContent{
-    width: 90%; /* This is the inner width of the content inside of your header (80%, etc) */
+    width: 90%;
     height: 100%;
     display: block;
     margin: 0 auto;
@@ -35,14 +35,14 @@ header .logo div{
 
 header .logo img{
     height: 50px;
-    margin-top: 5px; /* Optical alignment of the logo */
+    margin-top: 5px;
 }
 
 .priNav {
     float: right;
     height: 100%;
-    display: flex; /* Use flexbox */
-    align-items: center; /* Center items vertically */
+    display: flex;
+    align-items: center;
 }
 
 .megaMenu {
@@ -80,7 +80,7 @@ header .logo img{
     background-color: #CCCCFA;
     border: 1px solid #575757;
     border-radius: 4px;
-    width: 200px; /* Adjust width as needed */
+    width: 200px;
 }
 
 .menuItem:hover .megaContent {
@@ -104,7 +104,7 @@ header .logo img{
 
 .search-button img {
     height: 17px;
-    margin-top: 5px; /* Optical alignment of the logo */
+    margin-top: 5px;
 
 }
 
