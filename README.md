@@ -22,10 +22,10 @@ Table of content
 ## Installation
 To install Learning Vista School locally, follow these steps:
 
-Clone the repository: git clone https://github.com/yourusername/learning-vista-school.git
-Navigate to the project directory: cd learning-vista-school
-Install dependencies: npm install
-Start the development server: npm start
+* Clone the repository: git clone https://github.com/yourusername/learning-vista-school.git
+* Navigate to the project directory: cd learning-vista-school
+* Install dependencies: npm install
+* Start the development server: npm start
 
 ## Usage
 Once installed, you can access Learning Vista School by opening it in your web browser. Register for courses, access guidance, resources, and connect with alumni and job opportunities to enhance your educational experience.
