@@ -33,17 +33,17 @@ Once installed, you can access Learning Vista School by opening it in your web b
 ## Contributing
 We welcome contributions from the community to improve Learning Vista School. To contribute, follow these steps:
 
-Fork the repository.
-Create a new branch: git checkout -b feature
-Make your changes and commit them: git commit -m 'Add new feature'
-Push to the branch: git push origin feature
-Submit a pull request.
+* Fork the repository.
+* Create a new branch: git checkout -b feature
+* Make your changes and commit them: git commit -m 'Add new feature'
+* Push to the branch: git push origin feature
+* Submit a pull request.
 
 
 ## Related Projects
 Check out these related projects:
-ABU website
-University of Manchester
+* ABU website
+* University of Manchester
 
 ## Bugs
 No known bugs at this time.
