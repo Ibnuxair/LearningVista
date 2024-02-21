@@ -42,8 +42,8 @@ We welcome contributions from the community to improve Learning Vista School. To
 
 ## Related Projects
 Check out these related projects:
-* ABU website (https://abu.edu.ng/)
-* University of Manchester (https://www.manchester.ac.uk/)
+* ABU Website (https://abu.edu.ng/)
+* University of Manchester Website (https://www.manchester.ac.uk/)
 
 ## Bugs
 No known bugs at this time.
